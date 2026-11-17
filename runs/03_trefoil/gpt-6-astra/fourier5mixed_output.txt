@@ -1,0 +1,14 @@
+Fourier5mixed 129920 triple features by 3540 pairs, coefficients through 2.
+Fourier5mixed progress 0/129920, elapsed 0.6s, candidates 0
+Fourier5mixed progress 16384/129920, elapsed 8.3s, candidates 0
+Fourier5mixed progress 32768/129920, elapsed 16.0s, candidates 2
+Fourier5mixed progress 49152/129920, elapsed 23.5s, candidates 3
+Fourier5mixed progress 65536/129920, elapsed 31.4s, candidates 3
+Fourier5mixed progress 81920/129920, elapsed 39.3s, candidates 3
+Fourier5mixed progress 98304/129920, elapsed 47.1s, candidates 3
+Fourier5mixed progress 114688/129920, elapsed 55.3s, candidates 3
+Fourier5mixed candidates 3
+Fourier5mixed ((3, 1), (6, -1), (8, 2), (10, -2), (29, -1)): train 0.93360, test 0.92982
+Fourier5mixed ((4, 1), (13, -2), (19, -1), (22, 2), (30, 1)): train 0.75884, test 0.75659
+Fourier5mixed ((2, 1), (12, 2), (16, 1), (24, 1), (27, 2)): train 0.73081, test 0.72409
+Fourier5mixed elapsed 62.6s

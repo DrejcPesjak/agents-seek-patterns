@@ -1,0 +1,31 @@
+/home/drew99/.local/lib/python3.10/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+Held-out validation of 200-segment TRAINING-ONLY trefoil: {
+  "train_rms": 0.007086994893373071,
+  "heldout_rms": 0.007081580141240917,
+  "heldout_quantiles": {
+    "median": 0.005894215879631175,
+    "q90": 0.01080408781956422,
+    "q95": 0.01225379403619772,
+    "q99": 0.01531351472368447,
+    "max": 0.02016610506250018
+  },
+  "noise_median": 0.32635053678556253,
+  "threshold_train_q99": 0.015004544219317578,
+  "heldout_fraction_below_threshold": 0.98825,
+  "uniform_noise_fraction_below_threshold": 0.00176,
+  "shuffled_noise_fraction_below_threshold": 0.002,
+  "noise_scaled_heldout_rms": 0.024531313205000106
+}
+Full-data affine trefoil coefficient matrix:
+[[ 0.52739255  0.52697853  0.52848863]
+ [-0.0029776   0.01642246  0.07591843]
+ [ 0.0149736  -0.06931205  0.01782281]
+ [ 0.07730013  0.01408416 -0.00066374]]
+Full-data residual Euclidean RMS 0.007082360988280131
+Map bounds: [[0.40954398 0.6388137 ]
+ [0.29387456 0.73600568]
+ [0.31492204 0.77264767]]
+Latent phase counts in 24 equal bins [392 348 301 264 237 312 356 433 447 375 276 236 253 295 367 438 461 309
+ 268 243 236 280 417 456]
+Wrote submission.json: structure, 3 expressions, 200 points, 200 segments, no triangles. No wrap crossings.

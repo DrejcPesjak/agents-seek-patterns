@@ -1,0 +1,43 @@
+{
+  "status": "structure",
+  "map": [
+    "(2*x10+2*x23+x25+x30)%1",
+    "(2*x1-2*x6-x11-x24)%1"
+  ],
+  "drawing": {
+    "points": [
+      [
+        0.51732602,
+        0.51079688
+      ],
+      [
+        0.43448,
+        0.57514194
+      ],
+      [
+        0.60889359,
+        0.54220873
+      ],
+      [
+        0.50196367,
+        0.39843301
+      ]
+    ],
+    "segments": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "triangles": []
+  },
+  "report": "There is a noisy one-dimensional Y-shaped graph hidden in two modular linear combinations. Set u=(2*x10+2*x23+x25+x30)%1 and v=(2*x1-2*x6-x11-x24)%1, taking remainders in [0,1). Its junction is approximately (0.517326,0.510797); the three endpoints are [(0.43448, 0.575142), (0.608894, 0.542209), (0.501964, 0.398433)]. The drawing contains just these three straight branches, not their filled convex hull. Rows are approximately uniform in arclength along the branches, with transverse noise consistent with standard deviation 0.005003 in these coordinates. The participating columns are x1,x6,x10,x11,x23,x24,x25,x30. This describes structure in a projection; it does not assert that all 30 columns jointly lie on a one-dimensional manifold or prove the other columns independent. Single-column histograms, pairwise dependence checks, correlations (maximum absolute 0.04365), and covariance eigenvalues initially looked like uniform noise. I searched sparse integer Fourier frequencies, splitting discovery and validation rows; only two independent four-column frequencies were strongly concentrated (held-out magnitudes about 0.960 and 0.969). A broader search with coefficients up to 3 found no further strong four-column relation. Plotting the fractional parts revealed the Y. I fitted a mixture of three uniformly sampled line segments with a shared junction and isotropic Gaussian noise. A separate 2500/2500 split assessed geometry: held-out median distance 0.003398, 95th-percentile distance 0.009436. At that threshold, 0.630% of 200000 independent uniform-noise projections and 0.603% of independently resampled-marginal null projections were close to the drawing. These are internal validation results, not measurements on the grader's hidden rows. Final vertices were refitted using all 5000 rows. Only X.csv and synthetic null samples were used; no external files or internet sources were consulted. See analysis.log, validation.json, and plots 01 through 06 for the audit trail."
+}

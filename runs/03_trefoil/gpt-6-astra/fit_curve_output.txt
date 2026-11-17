@@ -1,0 +1,14 @@
+/home/drew99/.local/lib/python3.10/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+Laplacian eigenvalues [-8.48057857e-17  3.67634708e-05  3.73176526e-05  1.41305188e-04
+  1.55735654e-04  3.25441974e-04  3.42173330e-04  5.80906132e-04]
+Initial phase Fourier harmonics=3: residual RMS 0.013896, per-coordinate [0.01016445 0.01507331 0.01577314]
+Initial phase Fourier harmonics=5: residual RMS 0.007957, per-coordinate [0.00974277 0.00717347 0.00659853]
+Initial phase Fourier harmonics=8: residual RMS 0.004623, per-coordinate [0.00484058 0.00456809 0.00445173]
+Initial phase Fourier harmonics=12: residual RMS 0.004230, per-coordinate [0.00454178 0.00412695 0.00400261]
+Initial phase Fourier harmonics=20: residual RMS 0.004182, per-coordinate [0.00451332 0.00406483 0.00394675]
+Initial phase Fourier harmonics=30: residual RMS 0.004153, per-coordinate [0.00449029 0.00403589 0.00391174]
+Principal curve iter 0: train distance RMS 0.007081; test 0.007107
+Principal curve iter 4: train distance RMS 0.007067; test 0.007096
+Principal curve iter 9: train distance RMS 0.007067; test 0.007096
+Principal curve iter 14: train distance RMS 0.007067; test 0.007096

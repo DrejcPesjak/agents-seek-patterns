@@ -1,0 +1,16 @@
+{
+  "seed": 2026111703,
+  "D": 30,
+  "N": 8000,
+  "k": 2,
+  "noise_sigma": 0.004,
+  "shape": {"kind": "sword"},
+  "lattice": {
+    "support_per_direction": 6,
+    "coefficients": [-2, -1, 1, 2],
+    "disjoint_supports": true,
+    "min_delta": 6
+  },
+  "fourier_min_abs": 0.3,
+  "harmonic_max": 2
+}

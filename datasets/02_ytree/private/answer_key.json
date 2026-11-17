@@ -1,0 +1,300 @@
+{
+  "seed": 1893842834751872380,
+  "accepted_attempt_zero_based": 0,
+  "shape": "random tree with 4\u20136 nodes",
+  "true_vertices": [
+    [
+      0.5104861587135322,
+      0.5170413491776795
+    ],
+    [
+      0.5418975565823965,
+      0.6082352471908947
+    ],
+    [
+      0.3983351170080332,
+      0.5021430981993604
+    ],
+    [
+      0.5752146206699156,
+      0.43479036978402685
+    ]
+  ],
+  "true_edges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ]
+  ],
+  "B": [
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      -2,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "pivot_columns_one_based": [
+    11,
+    25
+  ],
+  "delta": 4,
+  "saturated": true,
+  "pivot_determinant": -1,
+  "latent_noise_sigma": 0.005,
+  "visible_fourier_magnitudes": [
+    0.9597941293524426,
+    0.9679508302523079
+  ],
+  "concealment": {
+    "names": [
+      "max_abs_corr",
+      "PCA_max_min_eigenvalue_ratio",
+      "PCA_spectrum_RMS_relative",
+      "max_pair_chi2_8x8",
+      "max_triple_chi2_4x4x4"
+    ],
+    "observed": [
+      0.04365034089264648,
+      1.3354103375296393,
+      0.07659484515302746,
+      97.9328,
+      110.9376
+    ],
+    "null_median": [
+      0.0440472925103053,
+      1.3222552766684077,
+      0.07627598352526457,
+      98.4192,
+      109.376
+    ],
+    "p_values": [
+      0.575,
+      0.325,
+      0.5,
+      0.6,
+      0.375
+    ],
+    "omnibus_p": 0.8,
+    "null_count": 39,
+    "pass": true
+  },
+  "recovered_B": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      -2,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "recovery": {
+    "partitions": 3,
+    "screen_candidates_verified": 4,
+    "cpu_seconds": 1.8620210509999993,
+    "wall_seconds": 0.5366816890000052,
+    "magnitudes": [
+      0.9679508302523074,
+      0.9597941293524437
+    ],
+    "fit": {
+      "cpu_seconds": 0.8303354269999996,
+      "vertices": 100,
+      "edges": 99
+    },
+    "stacked_rank": 2,
+    "full_lattice_recovered": true,
+    "noiseless_geometry_precision": 1.0,
+    "noiseless_geometry_recall": 1.0
+  },
+  "epsilon": 0.055,
+  "tests": {
+    "reference": {
+      "status": "graded",
+      "epsilon": 0.055,
+      "hit_planted": 1.0,
+      "hit_noise": 0.0136,
+      "drawing_precision": 1.0,
+      "score": 0.9864
+    },
+    "equivalent": {
+      "status": "graded",
+      "epsilon": 0.055,
+      "hit_planted": 1.0,
+      "hit_noise": 0.0136,
+      "drawing_precision": 1.0,
+      "score": 0.9864
+    },
+    "one_direction": {
+      "status": "graded",
+      "epsilon": 0.055,
+      "hit_planted": 1.0,
+      "hit_noise": 0.2104,
+      "drawing_precision": 1.0,
+      "score": 0.7896
+    },
+    "constant": {
+      "hit_planted": 0.0,
+      "hit_noise": 0.0,
+      "drawing_precision": 0.0,
+      "score": 0.0,
+      "status": "zero",
+      "reason": "near-zero or nonfinite null standard deviation"
+    },
+    "x1_x2": {
+      "status": "graded",
+      "epsilon": 0.055,
+      "hit_planted": 0.0146,
+      "hit_noise": 0.0136,
+      "drawing_precision": 0.9746022031823746,
+      "score": 0.0009746022031823754
+    },
+    "filled_square": {
+      "status": "graded",
+      "epsilon": 0.055,
+      "hit_planted": 1.0,
+      "hit_noise": 1.0,
+      "drawing_precision": 0.015151515151515152,
+      "score": 0.0
+    },
+    "over_200": {
+      "status": "rejected",
+      "reason": "drawing must contain 1\u2013200 points",
+      "score": 0.0
+    },
+    "none": {
+      "hit_planted": 0.0,
+      "hit_noise": 0.0,
+      "drawing_precision": 0.0,
+      "score": 0.0,
+      "status": "none",
+      "reason": "this benchmark instance contains structure"
+    }
+  },
+  "grader_note": "Shape score is geometry/detection, not a proof of lattice or topology recovery; report not scored.",
+  "cli_tests_passed": true,
+  "forbidden_AST_tests_rejected": 6
+}

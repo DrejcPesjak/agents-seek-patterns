@@ -1,0 +1,12 @@
+Fourier search supports up to 6, +/-1 coefficients: 17140 features on 2000 train rows.
+Fourier6 progress 0/17140, elapsed 1.8s, candidates 0
+Fourier6 progress 2048/17140, elapsed 3.8s, candidates 0
+Fourier6 progress 4096/17140, elapsed 5.8s, candidates 0
+Fourier6 progress 6144/17140, elapsed 7.8s, candidates 0
+Fourier6 progress 8192/17140, elapsed 9.9s, candidates 0
+Fourier6 progress 10240/17140, elapsed 11.8s, candidates 0
+Fourier6 progress 12288/17140, elapsed 13.8s, candidates 0
+Fourier6 progress 14336/17140, elapsed 15.8s, candidates 0
+Fourier6 progress 16384/17140, elapsed 17.7s, candidates 0
+Fourier6 candidates 0
+Fourier6 elapsed 18.2s

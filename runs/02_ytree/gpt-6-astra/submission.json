@@ -1,0 +1,43 @@
+{
+  "status": "structure",
+  "map": [
+    "mod(2*x10+2*x23+x25+x30,1)",
+    "mod(2*x1-2*x6-x11-x24,1)"
+  ],
+  "drawing": {
+    "points": [
+      [
+        0.51769627,
+        0.51058306
+      ],
+      [
+        0.43446378,
+        0.57525717
+      ],
+      [
+        0.60883063,
+        0.54251449
+      ],
+      [
+        0.50158611,
+        0.39827232
+      ]
+    ],
+    "segments": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "triangles": []
+  },
+  "report": "There is a noisy, one-dimensional Y-shaped graph hidden in two modular linear combinations. The first map uses x10, x23, x25, x30; the second uses x1, x6, x11, x24. The drawing gives the junction (point 0) and the three arm endpoints (points 1-3). The arms are approximately straight, with isotropic Gaussian scatter of standard deviation 0.005 per mapped coordinate. The mapped observations lie roughly between 0.425 and 0.619 horizontally and between 0.385 and 0.590 vertically; no arm crosses a modular border. Individual columns look uniform on [0,1]; Pearson correlations, PCA, binned pairwise dependence, and one/two-column Fourier searches did not reveal the structure. I searched sparse integer Fourier characters, discovered two independent four-column directions with coefficients 1 and 2, and plotted their values modulo one. On 3500 discovery rows the Fourier magnitudes were 0.96755 and 0.96019; on 1500 untouched validation rows they were 0.96890 and 0.95898. A three-segment model was fitted using only the discovery rows. Its median held-out distance is 0.00349; 95.6% of validation rows are within 0.01 and 99.73% within 0.015. For independently resampled columns preserving the observed marginal distributions, only 0.671% of 200000 null rows are within 0.01. An expanded four-column Fourier screen with integer coefficients up to magnitude 6 recovered only these directions and their harmonics as strong replicating signals. This establishes the Y structure; it does not prove the absence of every conceivable additional relationship. Only X.csv was read as a data source. Analysis code, chronological log, model parameters and plots are saved in analysis_output."
+}

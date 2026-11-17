@@ -221,3 +221,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Intermediate results
+.data
+
+# Local scratch
+tmp.md
+out/
+
+# Never commit raw dataset copies or agent binary scratch inside runs/
+runs/**/X.csv
+runs/**/example_X.csv
+runs/**/*.npy
+runs/**/*.npz
+
+# Agent work logs are part of the record
+!runs/**/*.log

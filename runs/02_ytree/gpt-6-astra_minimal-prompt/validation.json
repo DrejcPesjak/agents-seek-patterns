@@ -1,0 +1,45 @@
+{
+  "heldout_rows": 2500,
+  "geometry_training_rows": 2500,
+  "null_rows": 200000,
+  "heldout_distance_quantiles": {
+    "50%": 0.0033981053563216504,
+    "90%": 0.007972811715546788,
+    "95%": 0.009436053438447287,
+    "99%": 0.012417988180659242
+  },
+  "uniform_null_distance_median": 0.3167538218823709,
+  "marginal_resampling_null_distance_median": 0.31671877418486094,
+  "threshold_for_95_percent_heldout": 0.009436053438447287,
+  "uniform_null_fraction_within_threshold": 0.0063,
+  "resampled_null_fraction_within_threshold": 0.006025,
+  "full_fit_sigma": 0.005003454749121911,
+  "full_fit_vertices": [
+    [
+      0.5173260246982054,
+      0.5107968835378383
+    ],
+    [
+      0.4344800046255069,
+      0.5751419430509869
+    ],
+    [
+      0.6088935933829352,
+      0.5422087285528544
+    ],
+    [
+      0.501963670774795,
+      0.3984330061534107
+    ]
+  ],
+  "segment_lengths": [
+    0.10489875940942583,
+    0.09680559716297456,
+    0.11340918330951331
+  ],
+  "segment_weights": [
+    0.33161806663709215,
+    0.30766594705015327,
+    0.3607159863127547
+  ]
+}

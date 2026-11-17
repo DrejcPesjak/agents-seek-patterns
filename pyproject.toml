@@ -1,0 +1,10 @@
+[project]
+name = "blend-seek"
+version = "0.1.0"
+description = "BLEND hides a shape in data that looks like noise. SEEK checks whether an agent can find it."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "matplotlib"]
+
+[project.optional-dependencies]
+legacy = ["scikit-learn"]   # only for blend/legacy/generator_*.py

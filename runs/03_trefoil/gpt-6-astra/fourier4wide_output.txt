@@ -1,0 +1,11 @@
+Wide Fourier4: 21900 features, coefficients through 5.
+Wide Fourier4 progress 0/21900, elapsed 2.5s, candidates 0
+Wide Fourier4 progress 3072/21900, elapsed 6.5s, candidates 0
+Wide Fourier4 progress 6144/21900, elapsed 10.5s, candidates 0
+Wide Fourier4 progress 9216/21900, elapsed 14.7s, candidates 0
+Wide Fourier4 progress 12288/21900, elapsed 18.7s, candidates 0
+Wide Fourier4 progress 15360/21900, elapsed 22.7s, candidates 0
+Wide Fourier4 progress 18432/21900, elapsed 26.7s, candidates 0
+Wide Fourier4 progress 21504/21900, elapsed 30.7s, candidates 0
+Wide Fourier4 candidates 0
+Wide Fourier4 elapsed 31.0s

@@ -1,0 +1,8 @@
+Wide Fourier3 progress 0/435 elapsed 0.3s; candidates 0
+Wide Fourier3 progress 75/435 elapsed 1.6s; candidates 0
+Wide Fourier3 progress 150/435 elapsed 2.8s; candidates 0
+Wide Fourier3 progress 225/435 elapsed 4.0s; candidates 0
+Wide Fourier3 progress 300/435 elapsed 5.3s; candidates 0
+Wide Fourier3 progress 375/435 elapsed 6.6s; candidates 0
+Wide Fourier3 candidates 0
+Wide Fourier3 elapsed 7.3s

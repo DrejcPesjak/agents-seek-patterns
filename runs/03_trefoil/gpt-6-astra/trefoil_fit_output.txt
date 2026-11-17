@@ -1,0 +1,19 @@
+Affine standard trefoil initial phase shift 0.000: train RMS 0.0070507, evaluations 7
+Affine standard trefoil initial phase shift 0.524: train RMS 0.0070507, evaluations 21
+Affine standard trefoil initial phase shift 1.047: train RMS 0.0764606, evaluations 200
+Affine standard trefoil initial phase shift 1.571: train RMS 0.0070507, evaluations 20
+Affine standard trefoil initial phase shift 2.094: train RMS 0.0070507, evaluations 7
+Affine standard trefoil initial phase shift 2.618: train RMS 0.0070507, evaluations 21
+Affine standard trefoil initial phase shift 3.142: train RMS 0.0764606, evaluations 200
+Affine standard trefoil initial phase shift 3.665: train RMS 0.0070507, evaluations 18
+Affine standard trefoil initial phase shift 4.189: train RMS 0.0070507, evaluations 7
+Affine standard trefoil initial phase shift 4.712: train RMS 0.0070507, evaluations 26
+Affine standard trefoil initial phase shift 5.236: train RMS 0.0764606, evaluations 200
+Affine standard trefoil initial phase shift 5.760: train RMS 0.0070507, evaluations 18
+Affine standard trefoil FINAL train RMS 0.0070854; test RMS 0.0070816
+Affine trefoil coefficients [center; standard x basis; standard y basis; standard z basis]:
+[[ 0.52735813  0.52700888  0.5285245 ]
+ [-0.00297891  0.01650076  0.07591822]
+ [ 0.01499767 -0.06929608  0.01786036]
+ [ 0.07718204  0.01406642 -0.00066731]]
+Linear matrix singular values [0.07868777 0.07798825 0.07260881]

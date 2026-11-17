@@ -1,0 +1,218 @@
+Only source read: X.csv. (8000, 30)
+range (1.2713631281080495e-07, 0.999998740330531); nonfinite 0
+means [0.50001297 0.50678216 0.49864787 0.50131486 0.50373197 0.4989564
+ 0.5023898  0.50725119 0.49510245 0.49835694 0.4938649  0.49976736
+ 0.50174755 0.49688106 0.50402015 0.50161724 0.50063313 0.50460755
+ 0.49951003 0.50335517 0.50130781 0.5016445  0.50258052 0.50175042
+ 0.49717944 0.49735068 0.50459544 0.49937893 0.50217939 0.50501426]
+stds [0.28710789 0.28953614 0.29083084 0.28812347 0.28740355 0.28600831
+ 0.28942829 0.28768283 0.29109397 0.28932171 0.2868556  0.28856791
+ 0.28916313 0.29123794 0.28621991 0.28484661 0.28750496 0.28907577
+ 0.28900504 0.28951217 0.28927161 0.2876477  0.28719816 0.28821983
+ 0.28982668 0.28766913 0.28899973 0.28971896 0.28983213 0.28940656]
+uniform KS [0.0087, 0.0205, 0.0092, 0.007, 0.0103, 0.0087, 0.0086, 0.0153, 0.0145, 0.0104, 0.0125, 0.0073, 0.0098, 0.0129, 0.0128, 0.0103, 0.0066, 0.0099, 0.0062, 0.0111, 0.005, 0.0085, 0.0119, 0.009, 0.0123, 0.0098, 0.0182, 0.0066, 0.0078, 0.0128]
+max correlation 0.03309096526018803
+cov eigenvalues [0.07392378 0.07503561 0.07627537 0.07697631 0.07740868 0.07768102
+ 0.07808545 0.07835156 0.0789004  0.08020967 0.08036597 0.0808941
+ 0.08161696 0.08244053 0.08286716 0.08367418 0.0841543  0.08449707
+ 0.08458257 0.08584936 0.08646632 0.0873671  0.08756995 0.08880372
+ 0.0890739  0.08970917 0.0902382  0.09065451 0.09186946 0.09256362]
+Initial scans complete
+triple 0.04376: [(13, 1), (17, -1), (18, 1)]
+triple 0.04344: [(6, 2), (21, -1)]
+triple 0.04269: [(12, 1), (26, 1), (27, 1)]
+triple 0.04269: [(12, 1), (26, 1), (27, 1)]
+triple 0.04269: [(12, 1), (26, 1), (27, 1)]
+triple 0.04376: [(13, 1), (17, -1), (18, 1)]
+triple 0.04376: [(13, -1), (17, 1), (18, -1)]
+triple 0.04154: [(1, 1), (2, -1), (18, -1)]
+triple 0.04154: [(1, -1), (2, 1), (18, 1)]
+triple 0.04154: [(1, 1), (2, -1), (18, -1)]
+triple 0.04668: [(3, 1), (6, 1), (10, 2)]
+triple 0.04345: [(17, 1), (23, -1), (28, 2)]
+triple 0.04304: [(2, 1), (16, -1), (22, 2)]
+triple 0.04282: [(9, 1), (10, 2), (22, 1)]
+triple 0.04271: [(17, 2), (24, 1), (28, -1)]
+triple 0.04628: [(8, 1), (14, -2), (20, -1)]
+triple 0.04313: [(1, -2), (10, 1), (14, 1)]
+triple 0.04212: [(7, 1), (11, -2), (22, -1)]
+triple 0.04178: [(8, 1), (18, -2), (26, -1)]
+triple 0.04145: [(7, -2), (8, 1), (20, 1)]
+triple 0.04766: [(13, 1), (14, 3), (22, 1)]
+triple 0.04298: [(7, 1), (16, 3), (29, -1)]
+triple 0.04225: [(8, 1), (14, 3), (21, 1)]
+triple 0.04143: [(14, 3), (23, 1), (27, 1)]
+triple 0.04092: [(7, 1), (11, 3), (26, 1)]
+triple 0.04344: [(6, -2), (21, 1)]
+triple 0.04327: [(2, 1), (24, -1), (28, -3)]
+triple 0.04144: [(3, -3), (19, 1), (21, -1)]
+triple 0.04048: [(13, 1), (21, -3), (28, 1)]
+triple 0.04028: [(3, 1), (21, -3), (26, 1)]
+Four-way scan
+quad 0.04780: [(9, 1), (14, 1), (17, -1), (23, -1)]
+quad 0.04683: [(1, 1), (5, -1), (12, 1), (17, -1)]
+quad 0.04668: [(3, 1), (6, 1), (10, 2)]
+quad 0.04665: [(4, 1), (9, 1), (15, -1), (23, 1)]
+quad 0.04476: [(2, 1), (13, 1), (14, 1), (15, -1)]
+quad 0.04439: [(3, 1), (15, -1), (22, 1), (28, -1)]
+quad 0.04376: [(3, 1), (20, 1), (29, -1), (30, 1)]
+quad 0.04360: [(9, 1), (15, 1), (29, -1), (30, -1)]
+quad 0.04332: [(13, 1), (18, 1), (20, -1), (24, -1)]
+quad 0.04313: [(1, 2), (10, -1), (14, -1)]
+quad 0.04306: [(11, 1), (14, 1), (19, -1), (26, -1)]
+quad 0.04303: [(1, 1), (9, 1), (11, -1), (28, 1)]
+quad 0.04283: [(1, 1), (9, 1), (18, -1), (22, 1)]
+quad 0.04282: [(9, 1), (10, 2), (22, 1)]
+quad 0.04279: [(3, 1), (7, -1), (16, 1), (29, 1)]
+quad 0.04271: [(17, 2), (24, 1), (28, -1)]
+quad 0.04223: [(1, 1), (5, 1), (7, -1), (24, -1)]
+quad 0.04212: [(8, 1), (13, 1), (15, 1), (16, 1)]
+quad 0.04204: [(1, 1), (9, 2), (28, 1)]
+quad 0.04197: [(18, 1), (23, 2), (25, -1)]
+quad 0.04197: [(6, 1), (8, 1), (15, 1), (25, -1)]
+quad 0.04184: [(2, 1), (6, 1), (17, -1), (23, 1)]
+quad 0.04177: [(2, 1), (8, 1), (9, 1), (25, -1)]
+quad 0.04169: [(17, 1), (18, -1), (24, 1), (28, 1)]
+quad 0.04160: [(2, 1), (11, 1), (14, -1), (17, 1)]
+quad 0.04160: [(1, 1), (5, 1), (17, 2)]
+quad 0.04159: [(1, 1), (3, -1), (5, 1), (9, -1)]
+quad 0.04159: [(3, 1), (10, -1), (13, 1), (16, -1)]
+quad 0.04145: [(7, 2), (8, -1), (20, -1)]
+quad 0.04139: [(1, 1), (14, 2), (23, -1)]
+quad 0.04138: [(12, 1), (16, 1), (25, 1), (26, 1)]
+quad 0.04130: [(12, 1), (16, 1), (17, -1), (25, -1)]
+quad 0.04130: [(2, 1), (3, 1), (7, 1), (18, 1)]
+quad 0.04127: [(11, 1), (15, 1), (25, 1), (27, 1)]
+quad 0.04092: [(11, 2), (15, 1), (17, 1)]
+quad 0.04091: [(6, 2), (27, -1), (29, -1)]
+quad 0.04091: [(4, 1), (21, 1), (26, 1), (28, -1)]
+quad 0.04091: [(9, 1), (17, 1), (20, -1), (24, -1)]
+quad 0.04082: [(1, 1), (25, -1), (27, 1), (29, -1)]
+quad 0.04077: [(1, 1), (8, 1), (18, 1), (25, 1)]
+Six-variable Fourier search, screen 1200 rows, validate on 3000 separate rows.
+(1200, 16240)
+0/16240; candidates 0; seconds 0.1
+2048/16240; candidates 13; seconds 2.4
+4096/16240; candidates 23; seconds 4.5
+6144/16240; candidates 29; seconds 6.7
+8192/16240; candidates 29; seconds 8.9
+10240/16240; candidates 39; seconds 11.2
+12288/16240; candidates 48; seconds 13.4
+Top pairwise contingency p-values [(0.001186119760953352, 8, 29, 8, 84.62618737768938), (0.001281491255031822, 8, 20, 11, 84.29585205847432), (0.00199013142415706, 4, 29, 28, 26.06955399778913), (0.002078982689241435, 16, 28, 8, 290.6175278287929), (0.0022915395149500054, 16, 28, 21, 289.84054563558897), (0.004328441021346516, 8, 30, 29, 78.8984597664844), (0.004796902284241448, 8, 28, 20, 78.4233850556761), (0.007343112833932143, 8, 21, 18, 76.41685128824466), (0.007596198822304887, 8, 21, 1, 76.25436977711192), (0.007934401745409742, 4, 14, 6, 22.314331036087307), (0.008092221932000813, 4, 22, 5, 22.25940277648276), (0.008132763764836681, 8, 28, 21, 75.92576570064003)]
+bit triple scale 1: [(0.0395, 28, 8, 5, -0.0395), (0.03675, 29, 19, 1, -0.03675), (0.03575, 14, 13, 5, -0.03575)]
+bit triple scale 2: [(0.04325, 27, 5, 1, -0.04325), (0.041, 29, 8, 1, -0.041), (0.03975, 21, 14, 12, -0.03975)]
+bit triple scale 4: [(0.04275, 27, 22, 14, -0.04275), (0.04125, 20, 19, 18, 0.04125), (0.03875, 28, 21, 12, 0.03875)]
+bit triple scale 8: [(0.04575, 29, 28, 21, 0.04575), (0.04125, 16, 14, 4, -0.04125), (0.037, 23, 19, 10, -0.037)]
+bit triple scale 16: [(0.05575, 11, 9, 1, 0.05575), (0.041, 28, 27, 15, 0.041), (0.03625, 19, 8, 6, 0.03625)]
+bit triple scale 32: [(0.03875, 27, 16, 8, 0.03875), (0.03875, 16, 8, 7, 0.03875), (0.0385, 14, 6, 2, -0.0385)]
+14336/16240; candidates 69; seconds 15.7
+six validation 0.03757, train 0.12039: [(1, 1), (4, -1), (14, -1), (20, 1), (26, -1), (28, -1)]
+six validation 0.01645, train 0.12024: [(10, 1), (11, 1), (20, 2), (21, -1), (26, -1)]
+six validation 0.00971, train 0.12177: [(1, 1), (12, -1), (15, 2), (16, 1), (19, 1)]
+six validation 0.00828, train 0.11989: [(2, 1), (12, 1), (13, 1), (14, 1), (17, 1), (29, -1)]
+six validation 0.00667, train 0.12507: [(7, 1), (12, 1), (13, -1), (20, -1), (22, -1), (29, -1)]
+Expanded pair/triple Fourier search: pair coefficients through 4, third coefficient through 16.
+Expanded triple candidates 0
+Expanded search complete, unique candidates 0
+Gaussian-score covariance eigenvalues [0.88282877 0.90675062 0.91302516 0.91955334 0.9217778  0.93530298
+ 0.9360732  0.93770012 0.94929712 0.96288712 0.96505365 0.97013344
+ 0.9821494  0.99293513 0.99508607 0.9969147  1.00762274 1.01220874
+ 1.02106299 1.02473196 1.03545337 1.0471635  1.05196486 1.05889782
+ 1.07128301 1.07409344 1.08798587 1.09794651 1.1075426  1.11174667]
+Row sums against sum-of-uniform simulation: KstestResult(statistic=0.01375, pvalue=0.4360259755495986, statistic_location=14.936995014303935, statistic_sign=-1)
+Row squared radius: KstestResult(statistic=0.010625, pvalue=0.7572567645000413, statistic_location=1.9974942556706718, statistic_sign=1)
+Exact duplicate rows 0
+Maximum absolute lag-1 correlation 0.03092776794539298
+Nearest-neighbor distances circular=False, real/null mean 1.32353/1.32527, KS KstestResult(statistic=0.02125, pvalue=0.05396505853023791, statistic_location=1.3276101591590153, statistic_sign=1)
+Nearest-neighbor distances circular=True, real/null mean 5.59790/5.59605, KS KstestResult(statistic=0.012625, pvalue=0.5466537163983727, statistic_location=5.503398859090804, statistic_sign=-1)
+Independent holdout real-vs-uniform classifier ExtraTreesClassifier: AUC 0.48743
+Independent holdout real-vs-uniform classifier HistGradientBoostingClassifier: AUC 0.49791
+Nonlinear disjoint pair feature screen candidates 0
+Binary-digit GF2 rank scale 1: 30
+Binary-digit GF2 rank scale 2: 30
+Binary-digit GF2 rank scale 4: 30
+Binary-digit GF2 rank scale 8: 30
+Binary-digit GF2 rank scale 16: 30
+Binary-digit GF2 rank scale 32: 30
+Binary-digit GF2 rank scale 64: 30
+Binary-digit GF2 rank scale 128: 30
+Six-column mixed integer coefficient search: all triple features with nonzero coefficients in [-2,2]. Screen 600 rows; independent validation rows 2000:5000.
+Feature count 129920, memory 624 MB
+Mixed six: 0/129920; candidates 0; elapsed 0.7s
+Mixed six: 4096/129920; candidates 0; elapsed 21.9s
+Mixed six: 8192/129920; candidates 0; elapsed 42.5s
+Mixed six: 12288/129920; candidates 0; elapsed 62.6s
+Lattice reduction tests for dense, small-integer modular linear constraints. Candidate selection uses only first 41 rows; validation uses rows 2000:5000.
+Mixed six: 16384/129920; candidates 4; elapsed 82.5s
+Lattice reduction tests for dense, small-integer modular linear constraints. Candidate selection uses only first 41 rows; validation uses rows 2000:5000.
+Lattice m=8, scale=100000000, seconds=0.4, strongest validation [(0.02997749220572689, [11, -15, 33, -33, -12, 29, -1, -6, -24, -17, 5, 0, 16, 4, 10, 58, -6, 11, 3, -29, 29, -2, -43, 25, -9, -20, 10, -25, 15, 4]), (0.0289256595890265, [-49, 26, -14, 59, 9, 9, 59, 4, 20, 76, 17, -21, 13, 24, -8, -54, -60, -26, -61, -2, -6, 9, 16, -2, 28, 8, 12, -7, -56, -21])]
+Lattice m=16, scale=1000000, seconds=0.9, strongest validation [(0.035434761690828646, [-7, 12, -75, 17, -108, 136, 42, 18, 178, 94, -9, 77, 28, -69, 98, 142, 60, -60, 31, 11, 60, 11, -40, -123, -12, 142, -30, -146, 2, -75]), (0.030741449022739162, [115, 75, 17, 55, -1, -107, 13, -69, -36, -61, -16, 21, -47, -24, 84, 45, -38, 100, -67, -26, -41, 32, -19, 85, -30, -159, -68, 39, 15, 108])]
+Lattice m=24, scale=1000, seconds=0.7, strongest validation [(0.03387306287275175, [29, -11, -6, -11, -7, -21, 2, -7, -5, -16, 5, 13, -30, -11, -5, -2, 7, -8, -17, -4, 12, 4, -10, 8, -16, 7, 20, -7, -8, -7]), (0.033129150686893725, [26, 14, -5, -12, -10, -6, 4, 8, -26, 12, 10, 8, -20, 24, -11, -19, 21, -13, 4, 12, 28, 4, 1, 1, -20, -10, 3, 17, -8, 8])]
+Mixed six: 20480/129920; candidates 4; elapsed 101.7s
+Lattice m=40, scale=100, seconds=0.8, strongest validation [(0.04352120302998507, [-1, 2, -7, -4, -3, -1, -7, 6, 9, -11, -2, -3, 1, 4, 6, -10, -3, -3, 7, 4, -7, 2, 0, -1, -2, 4, -1, -10, 10, -6]), (0.038816966923889924, [2, 0, -2, 10, -4, 2, 12, -7, -4, 6, 1, -2, -1, 3, -1, 2, 6, 1, -11, 3, 3, 0, 5, 1, 2, 1, 7, 8, 0, 1])]
+LLL method positive-control: planted dense 30-column exact modular relation, m=8, recovered Fourier concentration=1.000000.
+LLL method positive-control: planted dense 30-column exact modular relation, m=16, recovered Fourier concentration=1.000000.
+Mixed six: 24576/129920; candidates 10; elapsed 120.5s
+Mixed six: 28672/129920; candidates 10; elapsed 138.8s
+Mixed six: 32768/129920; candidates 17; elapsed 156.1s
+Gaussian-score ICA logcosh: smallest held-out normality p=0.00717681 among 30 components; train max excess kurtosis=0.87032; convergence warnings=1
+Gaussian-score ICA exp: smallest held-out normality p=0.000411681 among 30 components; train max excess kurtosis=0.78066; convergence warnings=1
+Gaussian-score ICA cube: smallest held-out normality p=0.00097273 among 30 components; train max excess kurtosis=1.12854; convergence warnings=1
+Mixed six: 36864/129920; candidates 20; elapsed 173.3s
+Mixed six: 40960/129920; candidates 20; elapsed 189.6s
+Mixed six: 45056/129920; candidates 20; elapsed 205.0s
+Mixed six: 49152/129920; candidates 20; elapsed 219.8s
+Mixed six: 53248/129920; candidates 20; elapsed 233.9s
+Mixed six: 57344/129920; candidates 20; elapsed 247.5s
+Mixed six: 61440/129920; candidates 20; elapsed 260.3s
+Eight-column Fourier search: all four-column signed-sum features, then pair comparisons. Screen 350 rows at amplitude >0.24; validate on separate 3000 rows.
+Mixed six: 65536/129920; candidates 20; elapsed 272.5s
+Eight scan features 219240; memory 614 MB
+Eight: 0/219240; candidates 0; elapsed 1.2s
+Mixed six: 69632/129920; candidates 20; elapsed 286.1s
+ICA follow-up logcosh: selected component 28, initial p 0.00717681, independent middle rows p 0.320621; initial skew/kurtosis -0.1406/0.0107; middle 0.0721/-0.0848; weights [ 0.21368968 -0.03330821 -0.02040175  0.02687046 -0.0661848   0.3682
+  0.4436001  -0.05018425 -0.03567295  0.16011594  0.06009107 -0.03906601
+  0.07435364  0.09931069 -0.08913624 -0.2384608   0.10031429 -0.23258227
+ -0.05848417  0.15829887  0.15252632 -0.13099898 -0.2880917   0.20446078
+  0.05726396  0.04423673 -0.14620389 -0.22040285 -0.11463665  0.39293528]
+ICA follow-up exp: selected component 25, initial p 0.000411681, independent middle rows p 0.598114; initial skew/kurtosis -0.1632/0.1409; middle 0.0088/0.1054; weights [-0.01026845  0.16922689 -0.19825492  0.12162946  0.06057092  0.16133961
+ -0.19996412 -0.16528778 -0.10693061  0.2312904  -0.21814424  0.08327178
+  0.05846541  0.1308643   0.17811117 -0.05571248 -0.17178984  0.29575183
+  0.01840467  0.2715638   0.08536324  0.41093688  0.01320311  0.00463851
+  0.00999118  0.03332584  0.13262989 -0.20548868 -0.43944106 -0.15420087]
+ICA follow-up cube: selected component 18, initial p 0.00097273, independent middle rows p 0.710725; initial skew/kurtosis -0.1594/0.0989; middle -0.0416/-0.0427; weights [ 0.25992298 -0.33918007 -0.0573941   0.00186379  0.24189118  0.1410012
+ -0.06781994 -0.16448891  0.0862125  -0.03434963  0.06082435  0.19970936
+  0.10015953  0.047315   -0.29441698  0.17455624 -0.00292975 -0.04664065
+ -0.20376509 -0.3558781   0.1872601  -0.29085584 -0.10808232  0.03309879
+ -0.01101544 -0.25310305  0.20757026  0.19895718 -0.24687615 -0.10880667]
+Mixed six: 73728/129920; candidates 20; elapsed 300.0s
+Mixed six: 77824/129920; candidates 20; elapsed 311.6s
+Mixed six: 81920/129920; candidates 20; elapsed 322.4s
+Mixed six: 86016/129920; candidates 20; elapsed 332.4s
+Mixed six: 90112/129920; candidates 20; elapsed 341.5s
+Eight: 8192/219240; candidates 0; elapsed 71.5s
+Mixed six: 94208/129920; candidates 20; elapsed 350.0s
+Mixed six: 98304/129920; candidates 20; elapsed 357.3s
+Mixed six: 102400/129920; candidates 20; elapsed 363.5s
+Mixed six: 106496/129920; candidates 20; elapsed 368.8s
+Mixed six: 110592/129920; candidates 20; elapsed 373.3s
+Mixed six: 114688/129920; candidates 20; elapsed 376.9s
+Mixed six: 118784/129920; candidates 20; elapsed 379.7s
+Mixed six: 122880/129920; candidates 20; elapsed 381.6s
+Mixed six: 126976/129920; candidates 20; elapsed 382.7s
+Mixed-six validation 0.89545, screen 0.90206: [(3, 1), (9, -1), (12, 1), (25, 2), (27, 2), (29, -1)]
+Mixed-six validation 0.62564, screen 0.62117: [(2, 2), (4, 2), (14, -1), (15, -1), (20, -1), (28, -1)]
+Mixed six complete, 2 distinct candidates validated.
+Eight: 16384/219240; candidates 0; elapsed 131.2s
+Principal curve iteration 0: train median distance 0.002763
+Principal curve iteration 20: train median distance 0.002665
+Principal curve iteration 40: train median distance 0.002664
+Principal curve iteration 60: train median distance 0.002667
+Distance to sword outline train: median=0.002671, q90=0.006626, q95=0.007903, q99=0.010436; fraction within .01=0.987000
+Distance to sword outline holdout: median=0.002711, q90=0.006753, q95=0.008051, q99=0.010957; fraction within .01=0.982667
+Distance to sword outline uniform noise: median=0.210471, q90=0.394446, q95=0.435791, q99=0.492809; fraction within .01=0.033180
+
+FINAL DISCOVERY: two mixed-coefficient six-column Fourier relations generalize, revealing a sword outline. Earlier negative results were interim results only.
+Maps: ['mod(x3-x9+x12+2*x25+2*x27-x29,1)', 'mod(2*x2+2*x4-x14-x15-x20-x28,1)']
+Eight-column scan stopped after the successful mixed-six discovery; it is not claimed complete.
+submission.json written and validated. Final drawing uses first 5000 rows only; held-out 3000-row geometric validation is reported above.

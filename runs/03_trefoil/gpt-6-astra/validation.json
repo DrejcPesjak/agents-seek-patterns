@@ -1,0 +1,17 @@
+{
+  "train_rms": 0.007086994893373071,
+  "heldout_rms": 0.007081580141240917,
+  "heldout_quantiles": {
+    "median": 0.005894215879631175,
+    "q90": 0.01080408781956422,
+    "q95": 0.01225379403619772,
+    "q99": 0.01531351472368447,
+    "max": 0.02016610506250018
+  },
+  "noise_median": 0.32635053678556253,
+  "threshold_train_q99": 0.015004544219317578,
+  "heldout_fraction_below_threshold": 0.98825,
+  "uniform_noise_fraction_below_threshold": 0.00176,
+  "shuffled_noise_fraction_below_threshold": 0.002,
+  "noise_scaled_heldout_rms": 0.024531313205000106
+}

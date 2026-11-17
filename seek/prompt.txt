@@ -1,0 +1,30 @@
+You are given X.csv: N rows × M numeric columns (x1 … xM). Nothing else is known about it.
+
+  It may contain hidden low-dimensional structure, or it may be pure noise. Your job: find out, and if there is structure, describe exactly what it is and where it is.
+
+  Rules
+  - Use only X.csv. Don't look for other files, and don't search the internet for this dataset.
+  - Any method is allowed: code, statistics, plots, searches. Budget: about 1 hour of compute.
+  - Note: simple checks (single-column histograms, pairwise correlations, PCA) may show nothing even if structure exists.
+
+  Deliverable: write submission.json in exactly this format:
+  {
+    "status": "structure" or "none",
+    "map": [1 to 3 expression strings. Each turns one row into one number.
+            Variables x1..xM. Allowed: numbers, + - * /, %, mod(a,b), abs, floor,
+            sqrt, sin, cos, atan2, pi. Max 200 characters each],
+    "drawing": {
+      "points":    [[...], ...]   (at most 200 points, same dimension as the map),
+      "segments":  [[i, j], ...]  (pairs of point indices),
+      "triangles": [[i, j, k], ...]
+    },
+    "report": "plain-language description of what you found and how"
+  }
+  If an output of your map wraps around (e.g. it uses mod 1) and the shape crosses that border, draw it as separate pieces.
+
+  How it will be graded, so you know what counts:
+  - Your map is applied to NEW hidden rows from the same source, and to pure-noise rows.
+  - Good: the new rows land close to your drawing, the noise rows do not, and your drawing doesn't cover areas where the data isn't.
+  - Distances are measured after scaling each map output by its spread on noise rows.
+  - Fitting quirks of the visible 5000 rows won't help. Only the real underlying structure generalizes.
+    (you can use uv env on this computer, but dont sniff around work in this folder) (also log what you did along the way, and make some plots)

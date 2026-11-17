@@ -1,0 +1,10 @@
+dataset,agent,model,prompt,status,score,hit_planted,hit_noise,drawing_precision,lattice_recovered,drawing_points,score_source,chat_eval_score,notes
+01_pilot_loop,fable-5.2,Claude Fable 5.2,prompt.txt,none,0.0,,,,False,,no submission,,"Concluded ""none"" in LOG.md; no submission.json written. File was named example_X.csv; exact prompt not archived."
+01_pilot_loop,gpt-6-astra,GPT-6 Astra (medium),prompt.txt,structure,0.9534,,,,True,200,chat evaluation,0.9534,No held-out rows for the pilot; score is from the chat evaluation on freshly generated rows.
+02_ytree,fable-5.2,Claude Fable 5.2,prompt.txt,structure,0.9882,0.998,0.0098,1.0,True,61,seek/grade.py,0.9882,
+02_ytree,gpt-6-astra,GPT-6 Astra (medium),prompt.txt,structure,0.9882,0.998,0.0098,1.0,True,4,seek/grade.py,0.9882,
+02_ytree,gpt-6-astra_minimal-prompt,GPT-6 Astra (medium),prompt_minimal.txt,structure,0.9882,0.998,0.0098,1.0,True,4,seek/grade.py,,
+03_trefoil,fable-5.2,Claude Fable 5.2,prompt.txt,structure,0.992,0.9946,0.0026,1.0,True,200,seek/grade.py,0.992,
+03_trefoil,gpt-6-astra,GPT-6 Astra (medium),prompt.txt,structure,0.9918,0.9946,0.0028,1.0,True,200,seek/grade.py,0.9918,
+04_sword,fable-5.2,Claude Fable 5.2,prompt.txt,structure,0.9474,0.9988,0.0514,1.0,True,180,seek/grade.py,0.9474,Found the pivot columns through the floating-point side channel of the legacy generator.
+04_sword,gpt-6-astra,GPT-6 Astra (medium),prompt.txt,structure,0.9474,1.0,0.0526,1.0,True,160,seek/grade.py,0.9474,
